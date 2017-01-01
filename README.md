@@ -37,3 +37,52 @@ DIのメリットは、クライアントのコンポーネントは依存関係
     * 代用、置き換える
 * benefit
     * メリット、利点
+* rely
+    * 頼りにする
+* brittle
+    * 脆い
+* with that
+    * それと、
+* tweak
+    * 微調整
+* slightly
+    * わずかに
+* rid
+    * 除去する
+* isolation
+    * 隔離
+* predictable
+    * 予測可能
+* principle
+    * 原理、原則
+* aware
+    * 承知
+* setback
+    * 後退
+* boundaries
+    * 境界
+* upon
+    * 〜に
+* propagate
+    * 伝播する
+* In other words,
+    * 言い換えると
+* towards
+    * 向かって
+* affects
+    * 影響を与える
+* as long as
+    * 限り
+* altogether
+    * 全部
+* realize
+    * 実現する
+* Traditionally
+    * 伝統的に
+* implies
+    * ほのめかす
+* therefor
+    * そのため
+* across
+    * 横切る
+*
