@@ -7,11 +7,16 @@ import {MaterialModule} from '@angular/material';
 import {AppComponent} from './app.component';
 import {DiSampleAppComponent} from './di-sample-app/di-sample-app.component';
 import 'hammerjs';
+import {DiValueAppComponent} from './di-value-app/di-value-app.component';
+import {ApiService} from "./api.service";
+
+const isProduction: boolean = true;
 
 @NgModule({
     declarations: [
         AppComponent,
-        DiSampleAppComponent
+        DiSampleAppComponent,
+        DiValueAppComponent
     ],
     imports: [
         BrowserModule,
@@ -19,7 +24,15 @@ import 'hammerjs';
         HttpModule,
         MaterialModule.forRoot()
     ],
-    providers: [],
+    providers: [
+        {provide: ApiService, useClass: ApiService},
+        {
+            provide: 'API_URL',
+            useValue: isProduction ?
+                'https://production-api.sample.com' :
+                'http://dev-api.sample.com'
+        }
+    ],
     bootstrap: [AppComponent],
 })
 export class AppModule {

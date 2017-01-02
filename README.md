@@ -87,4 +87,19 @@ DIのメリットは、クライアントのコンポーネントは依存関係
     * 横切る
 * newly
     * あたらしく
-*
+* alongside
+    * 一緒に
+* overcome
+    * 克服する
+* neat
+    * きちんとした
+* demand
+    * 要求する
+* substituting
+    * 代用
+* reusable
+    * 再利用可能な
+* infer
+    * 推論
+* pretend
+    * ふりをする
